@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         // カスタムカラー名を定義します
-        'custom-bg-lch': 'oklch(98.5% 0 0)', 
+        'custom-bg-lch': 'oklch(39.1% 0.09 240.876)', 
       },
     },
   },
