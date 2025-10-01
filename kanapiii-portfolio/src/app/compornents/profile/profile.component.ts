@@ -8,14 +8,28 @@ import { Component } from '@angular/core';
         <h1 class="text-center mt-10 mb-5 font-bold text-3xl tracking-wide whitespace-nowrap">
           About Me
         </h1>
-        <div class="flex flex-col items-center md:flex-row justify-center">
-          <div class="flex flex-col items-center min-w-[220px] min-h-[208px]">
+        <div class="flex flex-col items-center">
+          <div class=" items-center ">
             <img
               src="icon.png"
               alt="icon"
               class="w-52 aspect-square rounded-full border border-solid border-gray-300"
             />
-            <p class="md:mb-0 mt-4 mb-1 text-lg font-bold text-center">Kanapiii<br />(Kanako Itoyama)</p>
+            <p class="md:mb-0 mt-4 mb-1 text-lg font-bold text-center">
+              Kanapiii<br />(Kanako Itoyama)
+            </p>
+          </div>
+          <!-- ここにSVGアイコンを追加 -->
+          <div class="flex items-center justify-center mt-4">
+            <a href="https://github.com/kanapiii22" target="_blank" rel="noopener">
+            <img src="github_icon.svg" alt="GitHub" class="w-12 h-12 mx-4 my-2" />
+            </a>
+            <a href="https://twitter.com/kanapiii2299" target="_blank" rel="noopener">
+              <img src="x_icon.svg" alt="X" class="w-12 h-12 mx-4 my-2" />
+            </a>
+            <a href="https://instagram.com/iam_kanapiii22" target="_blank" rel="noopener">
+              <img src="instagram_icon.svg" alt="Instagram" class="w-12 h-12 mx-4 my-2" />
+            </a>
           </div>
         </div>
       </section>
